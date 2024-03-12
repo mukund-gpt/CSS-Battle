@@ -1,0 +1,86 @@
+body{
+    background-image: url('image.png');
+}
+
+.box{
+    background-color: rgb(28, 1, 71);
+    height: 50vw;
+    width: 90vw;
+    margin: 50px ;
+
+}
+nav{
+   padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+   
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  
+}
+nav ul li{
+    display: inline;
+    margin-left: 10vwm;
+    margin-right: 10vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: purple;
+}
+.left{
+    float: left;
+    width: 70%;
+}
+#heading{
+    color: purple;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#heading2{
+    color: white;
+    margin-left: 100px;
+    font-family:sans-serif;
+
+}
+.form{
+    margin-left: 70px;
+    /* background-color: blue; */
+    width: 70%;
+       
+}
+form input{
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+input[type="text"],input[type="tel"],input[type="email"]{
+    padding: 10px;
+}
+.contact{
+    width: 30%;
+    /* background-color: red; */
+    float: right;
+}
+#contact-heading{
+    color: purple;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+#para{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#social-media{
+    margin-right: 30px;
+}
